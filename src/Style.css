@@ -1,0 +1,51 @@
+.todoTitle{
+  width: 100%;
+  text-align: center;
+  padding-top: 13px;
+  color: blue;
+}
+
+.todoInput{
+  width: 100%;
+
+}
+
+.todoItem{
+  font-size: large;
+  background-color: aqua;
+}
+
+.todoList{
+  margin-top: 13px;
+  font-size: large;
+}
+
+.trash{
+  position: relative;
+  float: right;
+}
+
+.edit{
+  position: relative;
+  float: right;
+
+}
+
+.todo-checkbox{
+  width: 15px;
+  height: 15px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.todoItemText{
+  padding-left: 10px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.todo-checkbox:checked + label {
+  color:blue;
+  text-decoration: line-through;
+}
